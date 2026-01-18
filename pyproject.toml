@@ -1,0 +1,17 @@
+[project]
+name = "agentic-data-mesh"
+version = "0.1.0"
+description = "Construir un agente que actúe como \"Data Product Guardian\". El sistema debe decidir autónomamente si permite el acceso a datos estructurados basándose en políticas de gobernanza dinámicas, emitiendo un juicio técnico antes de la ejecución."
+authors = [
+    {name = "Sebastián Mazo Vélez",email = "sebastianmazovelez@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
